@@ -1,0 +1,53 @@
+.navbar{
+
+    &__container{
+        height: 4rem;
+        display:flex;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.6);
+
+        &.open{
+            background-color: rgba(94, 1, 1, 0.6);
+            // background-color: rgba(153, 5, 5, 0.6);
+        }
+    }
+
+    &__menu {
+        margin-top: 0.6rem;
+        display: flex;
+        gap: 0.3rem;
+    }
+}
+
+.navbar__svg {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    transform-origin: center center;
+
+    &.open{
+        transform: rotate(90deg);
+    }
+}   
+
+.navbar__span {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #AB009A;
+
+    &.open{
+        color: white;  
+    }
+}
+
+
+.navbar__ellipse{
+    fill: #AB009A;
+
+    &.open{
+        fill: white;
+    }
+}
+

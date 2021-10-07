@@ -1,0 +1,33 @@
+.filmCard {
+    color:white;
+    margin: 2rem auto;
+    width: 17rem;
+    background-color: black;
+    box-shadow: 0px 0px 30px white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3rem;
+
+    &:hover{
+        box-shadow: 0px 0px 30px #FB0303;
+        
+        h3{
+            color: #FB0303;
+        }
+
+    }
+
+    img{
+        width: 17rem;
+        height: 21.5rem;
+    border-radius: 0.3rem;
+    }
+
+    h2 {
+        margin: 1rem 1rem 0.5rem 1rem;
+    }
+
+    p {
+        margin: 0.3rem 1rem 1rem 1rem;
+    }
+}

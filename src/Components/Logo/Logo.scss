@@ -1,0 +1,34 @@
+#Logo {
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    margin-left: 3rem;
+  
+    
+    // #Rotating {
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        // }
+        
+        #Rotating {
+        transition: all 1s linear;
+
+        transform-origin: center center;
+    }
+
+
+    #Star1 {
+        fill: #FB0303;
+    }
+
+    &:hover #Rotating {
+        // animation: spin 6s cubic-bezier(.8, 0, .2, 1) infinite;
+        // @keyframes spin {
+        //   50% { transform: rotate(180deg); }
+        //   100% { transform: rotate(360deg); }
+        // }
+        transform: rotate(360deg);
+    
+    }
+}

@@ -1,0 +1,38 @@
+.sidetitle{
+    
+    &__left {
+        align-self: center;
+        color: white;
+        font-size: 4rem;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        text-align: right;
+
+        
+        &:hover{
+            span{
+                color: rgb(197, 0, 0);
+            text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff,
+            0 0 82px rgb(197, 0, 0), 0 0 92px rgb(197, 0, 0), 0 0 102px rgb(197, 0, 0), 0 0 151px rgb(197, 0, 0);
+            }
+        
+        }
+        
+    }
+
+    &__right{
+        align-self: center;
+        color: white;
+        font-size: 4rem;
+        writing-mode: vertical-rl;
+        &:hover{
+            span{
+                color: #AB009A;
+                text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff,
+                0 0 82px #AB009A, 0 0 92px #AB009A, 0 0 102px #AB009A, 0 0 151px #AB009A;
+            }
+        
+        }
+    }
+
+}
